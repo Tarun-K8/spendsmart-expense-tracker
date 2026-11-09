@@ -1,0 +1,23 @@
+{
+  "name": "spendsmart-expense-tracker",
+  "version": "1.0.0",
+  "description": "Full-Stack Financial Expense Tracker with Analytics and CI/CD",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "test": "cd backend && npm test",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "expense-tracker",
+    "fintech",
+    "axis-bank"
+  ],
+  "author": "Tarun Kumar",
+  "license": "MIT"
+}
